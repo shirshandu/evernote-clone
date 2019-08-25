@@ -12,13 +12,6 @@ require('firebase/firestore');
 // };
 
 firebase.initializeApp({
-  apiKey: "AIzaSyDOrzp_F_dwgk1FG-Z9RqHBywRHVGcs9jQ",
-  authDomain: "evernote-clone-89fad.firebaseapp.com",
-  databaseURL: "https://evernote-clone-89fad.firebaseio.com",
-  projectId: "evernote-clone-89fad",
-  storageBucket: "",
-  messagingSenderId: "924961772877",
-  appId: "1:924961772877:web:e1669db9b1231ba6"
 })
 
 ReactDOM.render(<App />, document.getElementById('evernote-container'));
